@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #282c34;
+    text-align: center;
+}
+
+.home-container {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+}
+
+.home-heading {
+    font-size: calc(36px + 2vmin);
+    color: #ffffff;
+    /* marging-bottom: 20px; */
+}
+
+.user-button {
+    font-size: 18px;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.user-button:hover {
+    background-color: #d9d9d9;
+}
